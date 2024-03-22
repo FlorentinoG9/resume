@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Florentino De Valle Garcia",
-    "label": "Full Stack Developer con más de 5 años de experiencia.",
+    "label": "Full Stack Developer with more than 5 years of experience.",
     "image": "/me.webp",
     "email": "f.valle.garcia@gmail.com",
     "phone": "+34 689090467",
@@ -34,18 +34,18 @@
   },
   "work": [
     {
-      "name": "florentinog",
-      "position": "Divulgador sobre Programación Web",
+      "name": "Apata",
+      "position": "Mid-SeniorFront-end Developer",
       "url": "https://twitch.tv/florentinog",
       "startDate": "2021-01-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "At Apata Fintech, I focus on front-end development using React and NextJS, creating intuitive and efficient user interfaces for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance and SEO of our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing across devices. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
       "highlights": [
-        "Started the company"
+        "Started client-side portal for self-service card management from scratch"
       ]
     },
     {
-      "name": "Adevinta",
+      "name": "Gaem",
       "position": "Lead Frontend Architect",
       "url": "https://twitch.tv/midudev",
       "startDate": "2016-06-01",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "Hubii",
+      "name": "Ivoor Industries",
       "position": "Senior FrontEnd Developer",
       "startDate": "2011-03-01",
       "endDate": "2016-05-01",
@@ -78,10 +78,10 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
+    "institution": "Griffith College",
+    "url": "https://www.griffith.ie/",
+    "area": "Computer Science, Msc.",
+    "studyType": "High Diploma",
     "startDate": "2003-01-01",
     "endDate": "2009-01-01",
     "score": "4.0",
