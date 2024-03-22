@@ -1,42 +1,42 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Florentino De Valle Garcia",
+    "label": "Full Stack Developer con más de 5 años de experiencia.",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "email": "f.valle.garcia@gmail.com",
+    "phone": "+34 689090467",
     "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "I'm a dedicated Front-End Developer with a passion for crafting seamless user experiences using TypeScript and React, particularly thriving within the NextJS framework and Tailwind for styling. My work in the Fintech sector, focusing on card payments and transfer security, reflects my commitment to developing robust and secure applications that safeguard against vulnerabilities. Beyond my professional endeavors, I'm driven by a curiosity for emerging tech trends, investment strategies, and remote earning opportunities. I also invest my spare time in creating projects, continuously exploring new ways to innovate and enhance digital landscapes.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "postalCode": "",
+      "city": "A Coruña",
       "countryCode": "ES",
       "region": "España"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "florentinog",
+        "url": "https://www.linkedin.com/in/florentinog9/"
       },
       {
         "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "florentinog",
+        "url": "https://twitter.com/FG9_dev"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "florentinog",
+        "url": "https://github.com/FlorentinoG9"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
+      "name": "florentinog",
       "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
+      "url": "https://twitch.tv/florentinog",
       "startDate": "2021-01-01",
       "endDate": null,
       "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
