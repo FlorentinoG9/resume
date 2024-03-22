@@ -66,31 +66,34 @@
       ]
     }
   ],
-  "education": [{
-    "institution": "Griffith College",
-    "url": "https://www.griffith.ie/",
-    "area": "Computer Science, Msc.",
-    "studyType": "High Diploma",
-    "startDate": "2020-01-01",
-    "endDate": "2021-01-01",
-    "score": "8.5",
-    "place": "Dublin, Ireland",
-    "courses": [
-      "First Class Honours"
-    ]
-  },{
-    "institution": "Universidad La Salle ULSA",
-    "url": "https://lasalle.mx/",
-    "area": "Industrial Engineering",
-    "studyType": "Bachelor",
-    "startDate": "2010-01-01",
-    "endDate": "2014-01-01",
-    "score": "7.5",
-    "place": "Mexico City, Mexico",
-    "courses": [
-      "First Class Honours"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "Griffith College",
+      "url": "https://www.griffith.ie/",
+      "area": "Computer Science, Msc.",
+      "studyType": "High Diploma",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "score": "8.5",
+      "place": "Dublin, Ireland",
+      "courses": [
+        "First Class Honours"
+      ]
+    },
+    {
+      "institution": "Universidad La Salle ULSA",
+      "url": "https://lasalle.mx/",
+      "area": "Industrial Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01",
+      "score": "7.5",
+      "place": "Mexico City, Mexico",
+      "courses": [
+        "First Class Honours"
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
@@ -168,6 +171,13 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
+    },
+     {
+      "name": "Figma",
+      "level": "Hobby",
+      "keywords": [
+        "UX Design", "Frontend", "UI", "UI Design"
+      ]
     }
   ],
   "languages": [
@@ -193,17 +203,17 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "apata",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "credit card 3ds secure",
+        ""
       ],
       "url": "https://mars.codes"
     },
     {
-      "name": "AdventJS",
+      "name": "Ivoor Industries",
       "isActive": true,
       "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
       "highlights": [

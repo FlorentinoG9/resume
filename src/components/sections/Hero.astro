@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv"
+import { basics, languages } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -34,6 +34,15 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {city}, {region}
       </span>
       <span class="relocate">Available to relocate</span>
+      <ul class="languages">
+        {languages.map(({ language, fluency }) => (
+          <li>
+            {language} - {fluency}
+          </li>
+        ))}
+      </ul>
+
+
       <footer class="print">
         {printInfo}
       </footer>
@@ -102,6 +111,24 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .languages li {
+    color: #666;
+    font-size: 0.85rem;
+  }
+
+  .languages li:nth-child(2)::before {
+    content: "|";
+    margin-right: 0.5rem;
   }
 
   h1 {
