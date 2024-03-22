@@ -33,9 +33,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
+      <span class="relocate">Available to relocate</span>
       <footer class="print">
         {printInfo}
       </footer>
+
       <footer class="no-print">
         {
           email && (
@@ -79,6 +81,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
     </div>
+   
     <figure>
       <img src={image} alt={name} />
     </figure>
@@ -126,6 +129,17 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     gap: 0.25rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
+  }
+
+  .relocate {
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: fit-content;
+    background: #7d78d0;
   }
 
   footer {

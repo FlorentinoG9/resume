@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Florentino De Valle Garcia",
-    "label": "Full Stack Developer with more than 5 years of experience.",
+    "label": "Mid-Senior Frontend Developer with more than 5 years of experience.",
     "image": "/me.webp",
     "email": "f.valle.garcia@gmail.com",
     "phone": "+34 689090467",
@@ -35,8 +35,8 @@
   "work": [
     {
       "name": "Apata",
-      "position": "Mid-SeniorFront-end Developer",
-      "url": "https://twitch.tv/florentinog",
+      "position": "Mid-Senior Front-end Developer",
+      "url": "https://apata.io",
       "startDate": "2021-01-01",
       "endDate": null,
       "summary": "At Apata Fintech, I focus on front-end development using React and NextJS, creating intuitive and efficient user interfaces for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance and SEO of our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing across devices. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
@@ -46,67 +46,50 @@
     },
     {
       "name": "Gaem",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "position": "co-founder & developer",
+      "startDate": "2020-06-01",
+      "endDate": "2021-09-01",
+      "summary": "Research a new solution for Medical Applications Remotely Develop, design and build a new technology for a SaaS Web App in the Medical Industry",
       "highlights": [
         "Started the company"
       ]
     },
     {
       "name": "Ivoor Industries",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "position": "co-founder & developer",
+       "url": "https://www.ivoorindustries.com",
+      "startDate": "2018-01-01",
+      "endDate": null,
+      "summary": "Manage the logistics team, so the shipments follow a standard process in order to reduce costs and time, Develop an online store, implementing a product catalog in HTML, Improve SEO to increase traffic to the website on Google search engine, Created the enterprise infrastructure using Google Workspace Email, Domains, E-commerce Service, MailChimp, Federal, Government, and Legal state documentation to build the company, Create all product catalog pictures, illustrations and graphics for each catalog. These catalogs raised sales by 20% within three months after they were issued by displaying all the goods accessible to our clients. Catalogs Link",
       "highlights": [
         "Started the company"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
     "institution": "Griffith College",
     "url": "https://www.griffith.ie/",
     "area": "Computer Science, Msc.",
     "studyType": "High Diploma",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01",
+    "score": "8.5",
+    "place": "Dublin, Ireland",
     "courses": [
-      "DB1101 - Basic SQL"
+      "First Class Honours"
     ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+  },{
+    "institution": "Universidad La Salle ULSA",
+    "url": "https://lasalle.mx/",
+    "area": "Industrial Engineering",
+    "studyType": "Bachelor",
+    "startDate": "2010-01-01",
+    "endDate": "2014-01-01",
+    "score": "7.5",
+    "place": "Mexico City, Mexico",
+    "courses": [
+      "First Class Honours"
+    ]
   }],
   "skills": [
     {
