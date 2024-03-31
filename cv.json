@@ -3,9 +3,7 @@
     "name": "Florentino De Valle Garcia",
     "label": "Mid-Senior Frontend Developer with more than 5 years of experience.",
     "image": "/me.webp",
-    "email": "f.valle.garcia@gmail.com",
-    "phone": "+34 689090467",
-    "url": "https://midu.dev",
+    "url": "https://www.linkedin.com/in/florentinog9/",
     "summary": "I'm a dedicated Front-End Developer with a passion for crafting seamless user experiences using TypeScript and React, particularly thriving within the NextJS framework and Tailwind for styling. My work in the Fintech sector, focusing on card payments and transfer security, reflects my commitment to developing robust and secure applications that safeguard against vulnerabilities. Beyond my professional endeavors, I'm driven by a curiosity for emerging tech trends, investment strategies, and remote earning opportunities. I also invest my spare time in creating projects, continuously exploring new ways to innovate and enhance digital landscapes.",
     "location": {
       "address": "",
@@ -39,7 +37,7 @@
       "url": "https://apata.io",
       "startDate": "2021-01-01",
       "endDate": null,
-      "summary": "At Apata Fintech, I focus on front-end development using React and NextJS, creating intuitive and efficient user interfaces for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance and SEO of our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing across devices. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
+      "summary": "At Apata, I focus on front-end development using React and NextJS, creating intuitive and efficient features for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing for desktop users. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
       "highlights": [
         "Started client-side portal for self-service card management from scratch"
       ]
@@ -60,7 +58,7 @@
        "url": "https://www.ivoorindustries.com",
       "startDate": "2018-01-01",
       "endDate": null,
-      "summary": "Manage the logistics team, so the shipments follow a standard process in order to reduce costs and time, Develop an online store, implementing a product catalog in HTML, Improve SEO to increase traffic to the website on Google search engine, Created the enterprise infrastructure using Google Workspace Email, Domains, E-commerce Service, MailChimp, Federal, Government, and Legal state documentation to build the company, Create all product catalog pictures, illustrations and graphics for each catalog. These catalogs raised sales by 20% within three months after they were issued by displaying all the goods accessible to our clients. Catalogs Link",
+      "summary": "Manage the logistics team, so the shipments follow a standard process in order to reduce costs and time, Develop an online store Shopify, implementing a product catalog in HTML, Improve SEO to increase traffic to the website on Google search engine, Created the enterprise infrastructure using Google Workspace Email, Domains, E-commerce Service, MailChimp, Federal Government, and Legal state documentation to build the company, Create all product catalog pictures, illustrations and graphics for each catalog. These catalogs raised sales by 20% within three months after they were issued by displaying all the goods accessible to our clients.",
       "highlights": [
         "Started the company"
       ]
@@ -70,7 +68,7 @@
     {
       "institution": "Griffith College",
       "url": "https://www.griffith.ie/",
-      "area": "Computer Science, Msc.",
+      "area": "Computer Science, Hdp.",
       "studyType": "High Diploma",
       "startDate": "2020-01-01",
       "endDate": "2021-01-01",
@@ -190,79 +188,26 @@
       "fluency": "Advanced"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
       "name": "apata",
       "isActive": true,
-      "description": "",
+      "description": "Modern authentication infrastructure for Fintech issuers",
       "highlights": [
         "credit card 3ds secure",
         ""
       ],
-      "url": "https://mars.codes"
+      "url": "https://apata.io"
     },
     {
       "name": "Ivoor Industries",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "A retail company that sells products for the medical industry.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "+3M in sales to date"
       ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://www.ivoorindustries.com"
     }
+   
   ]
 }

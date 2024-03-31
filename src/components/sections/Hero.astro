@@ -1,15 +1,14 @@
 ---
 import { basics, languages } from "@cv"
 import Section from "@/components/Section.astro"
-import Mail from "@/icons/Mail.astro"
-import Phone from "@/icons/Phone.astro"
+
 import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,7 +20,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -48,30 +47,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </footer>
 
       <footer class="no-print">
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network]
@@ -147,6 +122,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
+    filter: grayscale(100%);
   }
 
   span {
