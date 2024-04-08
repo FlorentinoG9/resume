@@ -39,7 +39,13 @@
       "endDate": null,
       "summary": "At Apata, I focus on front-end development using React and NextJS, creating intuitive and efficient features for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing for desktop users. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
       "highlights": [
-        "Started client-side portal for self-service card management from scratch"
+        "Started client-side portal for self-service card management from scratch",
+        "CI/CD pipeline implementation for automated testing and deployment",
+        "Testing and debugging for optimal performance and user experience",
+        "Developed a responsive UI for desktop users using Tailwind CSS",
+        "Implemented dynamic features using React and NextJS for enhanced user experiences",
+        "Collaborated with backend developers to integrate APIs and ensure seamless data flow",
+        "Ensured code quality and performance optimization for reliable and secure applications"
       ]
     },
     {
@@ -194,7 +200,10 @@
       "isActive": true,
       "description": "Modern authentication infrastructure for Fintech issuers",
       "highlights": [
-        "delivered 14+ features to production"
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript"
       ],
       "url": "https://apata.io"
     },
