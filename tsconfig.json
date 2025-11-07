@@ -9,6 +9,7 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "strictNullChecks": true
   }
 }
