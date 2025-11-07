@@ -1,33 +1,34 @@
 ---
-  import { skills } from "@cv";
-  import CSS from "@/icons/css.astro";
-  import Figma from "@/icons/Figma.astro";
-  import GitHub from "@/icons/GitHub.astro";
-  import Git from "@/icons/git.astro";
-  import HTML from "@/icons/html.astro";
-  import JavaScript from "@/icons/javascript.astro";
-  import Next from "@/icons/next.astro";
-  import Node from "@/icons/node.astro";
-  import React from "@/icons/react.astro";
-  import MySQL from "@/icons/sql.astro";
-  import Tailwind from "@/icons/tailwind.astro";
-  import TypeScript from "@/icons/type.astro";
-  import Section from "../Section.astro";
+import { skills } from "@cv";
+import CSS from "@/icons/css.astro";
+import Figma from "@/icons/Figma.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Git from "@/icons/git.astro";
+import HTML from "@/icons/html.astro";
+import JavaScript from "@/icons/javascript.astro";
+import Next from "@/icons/next.astro";
+import Node from "@/icons/node.astro";
+import React from "@/icons/react.astro";
+import MySQL from "@/icons/sql.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import TypeScript from "@/icons/type.astro";
+import type { SocialIcon } from "@/types";
+import Section from "../Section.astro";
 
-  const SKILLS_ICONS: Record<string, any> = {
-    HTML,
-    CSS,
-    JavaScript,
-    TypeScript,
-    React,
-    Node,
-    MySQL,
-    Git,
-    GitHub,
-    Next,
-    Tailwind,
-    Figma,
-  };
+const SKILLS_ICONS: SocialIcon = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Figma,
+};
 ---
 <Section title="Skills">
   <ul>
@@ -46,22 +47,21 @@
   </ul>
 </Section>
 
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
+<style>ul {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
 
-  li {
-    align-items: center;
-    background: #eee;
-    border-radius: 6px;
-    color: black;
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
-  }
+li {
+  align-items: center;
+  background: #eee;
+  border-radius: 6px;
+  color: black;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+  gap: 4px;
+  padding: 0.2rem 0.6rem;
+}
 </style>

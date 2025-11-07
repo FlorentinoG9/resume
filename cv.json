@@ -93,6 +93,19 @@
   ],
   "education": [
     {
+      "institution": "St. Cloud State University",
+      "url": "https://www.stcloudstate.edu/",
+      "area": "Software Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2025-09-01",
+      "endDate": null,
+      "score": "In progress",
+      "place": "St. Cloud, Minnesota, USA",
+      "courses": [
+        "Graduate coursework in software architecture, distributed systems, and DevOps automation"
+      ]
+    },
+    {
       "institution": "Griffith College",
       "url": "https://www.griffith.ie/",
       "area": "Computer Science, Hdp.",
