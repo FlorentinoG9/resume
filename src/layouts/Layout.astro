@@ -1,40 +1,39 @@
 ---
-import { basics } from "@cv"
+  import { basics } from "@cv";
 
-interface Props {
-  title: string
-}
+  type Props = {
+    title: string;
+  };
 
-const { title } = Astro.props
+  const { title } = Astro.props;
 
-const { image, summary, url } = basics
+  const { image, summary, url } = basics;
 ---
-
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>{title}</title>
-    <meta name="description" content={summary} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preload" as="image" href={image} />
+    <meta name="description" content={summary}>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preload" as="image" href={image}>
 
-    <meta property="og:url" content={url} />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={summary} />
-    <meta property="og:image" content="" />
+    <meta property="og:url" content={url}>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={summary}>
+    <meta property="og:image" content="">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
-    <meta property="twitter:url" content={url} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={summary} />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content={url.split("//")[1] ?? ''}>
+    <meta property="twitter:url" content={url}>
+    <meta name="twitter:title" content={title}>
+    <meta name="twitter:description" content={summary}>
+    <meta name="twitter:image" content="">
   </head>
   <body>
-    <slot />
+    <slot/>
   </body>
 </html>
 
@@ -79,17 +78,8 @@ const { image, summary, url } = basics
   h4 {
     margin: 0;
     font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue",
-      sans-serif;
+      system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   p {
