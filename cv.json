@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Florentino De Valle Garcia",
-    "label": "Mid-Senior Frontend Developer with more than 5 years of experience.",
+    "label": "Senior Frontend Developer with more than 6 years of experience.",
     "image": "/me.webp",
     "url": "https://www.linkedin.com/in/florentinog9/",
     "summary": "I'm a dedicated Front-End Developer with a passion for crafting seamless user experiences using TypeScript and React, particularly thriving within the NextJS framework and Tailwind for styling. My work in the Fintech sector, focusing on card payments and transfer security, reflects my commitment to developing robust and secure applications that safeguard against vulnerabilities. Beyond my professional endeavors, I'm driven by a curiosity for emerging tech trends, investment strategies, and remote earning opportunities. I also invest my spare time in creating projects, continuously exploring new ways to innovate and enhance digital landscapes.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "A Coruña",
-      "countryCode": "ES",
-      "region": "España"
+      "city": "St. Cloud, MN",
+      "countryCode": "US",
+      "region": "Minnesota"
     },
     "profiles": [
       {
@@ -32,11 +32,36 @@
   },
   "work": [
     {
+      "name": "Inventorify",
+      "position": "Founder & Principal Engineer",
+      "startDate": "2025-07-01",
+      "endDate": null,
+      "summary": "Leading the delivery of Inventorify, a SaaS platform built to modernize inventory management for mid-market and enterprise teams. I define the system architecture, own product execution, and ensure the platform scales securely while providing measurable value to operations teams.",
+      "highlights": [
+        "Designed the end-to-end architecture leveraging PostgreSQL and Supabase for real-time, multi-tenant data management",
+        "Built automated CI/CD pipelines and DevOps workflows to accelerate releases and maintain high reliability",
+        "Integrated Resend to deliver transactional communications that keep customers updated on inventory activity"
+      ]
+    },
+    {
+      "name": "Ovixia",
+      "position": "Senior Frontend Developer",
+      "startDate": "2024-05-01",
+      "endDate": "2025-07-01",
+      "summary": "Developed and operated a SaaS platform tailored to designers, delivering subscription-based plugins that served over 8,000 active subscribers. Focused on platform reliability, scalability, and seamless integration with DataPocket across leading creative tool ecosystems.",
+      "highlights": [
+        "Led the DataPocket Figma plugin roadmap, shipping real-time product data integrations that sync assets directly inside design files",
+        "Built the Adobe Creative Cloud integration for DataPocket using BoltUXP, unifying workflows across Photoshop, Illustrator, and XD",
+        "Maintained infrastructure capable of processing more than 2 million images per month while preserving performance and availability",
+        "Automated content and asset management pipelines to streamline collaboration and protect customer data integrity"
+      ]
+    },
+    {
       "name": "Apata",
       "position": "Mid-Senior Front-end Developer",
       "url": "https://apata.io",
       "startDate": "2021-01-01",
-      "endDate": null,
+      "endDate": "2024-05-01",
       "summary": "At Apata, I focus on front-end development using React and NextJS, creating intuitive and efficient features for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing for desktop users. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
       "highlights": [
         "Started client-side portal for self-service card management from scratch",
@@ -54,20 +79,16 @@
       "startDate": "2020-06-01",
       "endDate": "2021-09-01",
       "summary": "Research a new solution for Medical Applications Remotely Develop, design and build a new technology for a SaaS Web App in the Medical Industry",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "Ivoor Industries",
       "position": "co-founder & developer",
-       "url": "https://www.ivoorindustries.com",
+      "url": "https://www.ivoorindustries.com",
       "startDate": "2018-01-01",
       "endDate": null,
       "summary": "Manage the logistics team, so the shipments follow a standard process in order to reduce costs and time, Develop an online store Shopify, implementing a product catalog in HTML, Improve SEO to increase traffic to the website on Google search engine, Created the enterprise infrastructure using Google Workspace Email, Domains, E-commerce Service, MailChimp, Federal Government, and Legal state documentation to build the company, Create all product catalog pictures, illustrations and graphics for each catalog. These catalogs raised sales by 20% within three months after they were issued by displaying all the goods accessible to our clients.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     }
   ],
   "education": [
@@ -80,9 +101,7 @@
       "endDate": "2021-01-01",
       "score": "8.5",
       "place": "Dublin, Ireland",
-      "courses": [
-        "First Class Honours"
-      ]
+      "courses": ["First Class Honours"]
     },
     {
       "institution": "Universidad La Salle ULSA",
@@ -93,95 +112,95 @@
       "endDate": "2014-01-01",
       "score": "7.5",
       "place": "Mexico City, Mexico",
-      "courses": [
-        "First Class Honours"
-      ]
+      "courses": ["First Class Honours"]
     }
   ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
-     {
+    {
       "name": "Figma",
       "level": "Hobby",
-      "keywords": [
-        "UX Design", "Frontend", "UI", "UI Design"
-      ]
+      "keywords": ["UX Design", "Frontend", "UI", "UI Design"]
     }
   ],
   "languages": [
@@ -199,23 +218,37 @@
       "name": "apata",
       "isActive": true,
       "description": "Modern authentication infrastructure for Fintech issuers",
-      "highlights": [
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "TypeScript"
-      ],
+      "highlights": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
       "url": "https://apata.io"
     },
     {
       "name": "Ivoor Industries",
       "isActive": true,
       "description": "A retail company that sells products for the medical industry.",
-      "highlights": [
-        "4M+ (MXN) in sales to date"
-      ],
+      "highlights": ["20M+ (MXN) in sales to date"],
       "url": "https://www.ivoorindustries.com"
+    },
+    {
+      "name": "The MOP Foundation Digital Platform",
+      "isActive": true,
+      "description": "Modernized the MOP Foundation’s public site with a Next.js experience that editors manage in Sanity Studio, aligning multilingual content, Shopify merchandising, and Pretix ticketing in one workflow.",
+      "highlights": [
+        "Configured Sanity UI for localized editorial control and automated publishing",
+        "Integrated Shopify product catalogs and Pretix event inventory into unified customer journeys",
+        "Delivered reusable Next.js components to preserve performance, accessibility, and maintainability"
+      ],
+      "url": "https://themopfoundation.org/es"
+    },
+    {
+      "name": "Andrews Technologies Web Platform",
+      "isActive": true,
+      "description": "Implemented a corporate marketing site for Andrews Technologies with a composable stack that pairs a Next.js front end with Sanity-managed content.",
+      "highlights": [
+        "Structured Sanity schemas to let corporate teams update multilingual copy and partner showcases autonomously",
+        "Delivered performant, SEO-friendly Next.js layouts optimized for long-form content and media assets",
+        "Automated deployments and previews so stakeholders can validate content updates before publishing"
+      ],
+      "url": "https://www.andrewstech.net/"
     }
-   
   ]
 }
