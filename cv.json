@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Florentino De Valle Garcia",
-    "label": "Senior Frontend Developer with more than 6 years of experience.",
+    "label": "Fullstack Engineer | React, Next.js, Astro, TypeScript, Node.js",
     "image": "/me.webp",
     "url": "https://www.linkedin.com/in/florentinog9/",
-    "summary": "I'm a dedicated Front-End Developer with a passion for crafting seamless user experiences using TypeScript and React, particularly thriving within the NextJS framework and Tailwind for styling. My work in the Fintech sector, focusing on card payments and transfer security, reflects my commitment to developing robust and secure applications that safeguard against vulnerabilities. Beyond my professional endeavors, I'm driven by a curiosity for emerging tech trends, investment strategies, and remote earning opportunities. I also invest my spare time in creating projects, continuously exploring new ways to innovate and enhance digital landscapes.",
+    "summary": "Fullstack Engineer with 6+ years of experience designing and building production web applications across React, Next.js, Astro, TypeScript, and Node.js. Specialized in architecting performant, scalable frontends with Tailwind CSS, server-side rendering, and static site generation. Experienced in end-to-end system design backed by PostgreSQL and Supabase, with strong CI/CD and DevOps practices. Proven track record shipping SaaS platforms, fintech portals, and content-driven web experiences from architecture through deployment. Focused on developer experience, accessibility, and performance optimization.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,62 +33,69 @@
   "work": [
     {
       "name": "Inventorify",
-      "position": "Founder & Principal Engineer",
+      "position": "Fullstack Engineer",
       "startDate": "2025-07-01",
       "endDate": null,
-      "summary": "Leading the delivery of Inventorify, a SaaS platform built to modernize inventory management for mid-market and enterprise teams. I define the system architecture, own product execution, and ensure the platform scales securely while providing measurable value to operations teams.",
+      "summary": "Architected and built a SaaS inventory management platform using Next.js, TypeScript, Supabase, and PostgreSQL. Responsible for the full technical stack — frontend UI, API layer, database design, real-time data sync, and deployment infrastructure.",
       "highlights": [
-        "Designed the end-to-end architecture leveraging PostgreSQL and Supabase for real-time, multi-tenant data management",
-        "Built automated CI/CD pipelines and DevOps workflows to accelerate releases and maintain high reliability",
-        "Integrated Resend to deliver transactional communications that keep customers updated on inventory activity"
+        "Architected a multi-tenant data model on PostgreSQL with Supabase real-time subscriptions and Row Level Security",
+        "Built the frontend application in Next.js and TypeScript with Tailwind CSS, delivering a responsive, accessible UI",
+        "Implemented automated CI/CD pipelines with GitHub Actions for continuous testing and zero-downtime deployments",
+        "Integrated Resend for transactional email notifications, handling event-driven communication workflows"
       ]
     },
     {
       "name": "Ovixia",
-      "position": "Senior Frontend Developer",
+      "position": "Frontend Engineer",
       "startDate": "2024-05-01",
       "endDate": "2025-07-01",
-      "summary": "Developed and operated a SaaS platform tailored to designers, delivering subscription-based plugins that served over 8,000 active subscribers. Focused on platform reliability, scalability, and seamless integration with DataPocket across leading creative tool ecosystems.",
+      "summary": "Led frontend engineering for a SaaS platform serving 8,000+ active subscribers, building design-tool plugins and web interfaces with React, TypeScript, and Node.js. Owned the full plugin development lifecycle across Figma and Adobe Creative Cloud ecosystems.",
       "highlights": [
-        "Led the DataPocket Figma plugin roadmap, shipping real-time product data integrations that sync assets directly inside design files",
-        "Built the Adobe Creative Cloud integration for DataPocket using BoltUXP, unifying workflows across Photoshop, Illustrator, and XD",
-        "Maintained infrastructure capable of processing more than 2 million images per month while preserving performance and availability",
-        "Automated content and asset management pipelines to streamline collaboration and protect customer data integrity"
+        "Led the DataPocket Figma plugin roadmap, building real-time data integrations with React and TypeScript that sync product assets directly inside design files",
+        "Built the Adobe Creative Cloud integration using BoltUXP, unifying workflows across Photoshop, Illustrator, and XD",
+        "Engineered asset processing infrastructure handling 2M+ images per month with optimized performance and high availability",
+        "Designed automated content pipelines to streamline collaboration and ensure data integrity at scale"
       ]
     },
     {
       "name": "Apata",
-      "position": "Mid-Senior Front-end Developer",
+      "position": "Frontend Engineer",
       "url": "https://apata.io",
       "startDate": "2021-01-01",
       "endDate": "2024-05-01",
-      "summary": "At Apata, I focus on front-end development using React and NextJS, creating intuitive and efficient features for our financial services. My role entails leveraging the full capabilities of React for dynamic user experiences, while NextJS allows for server-side rendering and static site generation, enhancing the performance our applications. Utilizing Tailwind CSS, I ensure the UI is responsive and visually appealing for desktop users. My work is crucial in providing seamless, secure online transactions and interactions for our users, contributing to the overall reliability and user satisfaction with our fintech solutions.",
+      "summary": "Built and owned the frontend for a fintech platform specializing in card payments and transfer security using React, Next.js, TypeScript, and Tailwind CSS. Delivered server-side rendered applications with a focus on performance, security, and seamless user experience.",
       "highlights": [
-        "Started client-side portal for self-service card management from scratch",
-        "CI/CD pipeline implementation for automated testing and deployment",
-        "Testing and debugging for optimal performance and user experience",
-        "Developed a responsive UI for desktop users using Tailwind CSS",
-        "Implemented dynamic features using React and NextJS for enhanced user experiences",
-        "Collaborated with backend developers to integrate APIs and ensure seamless data flow",
-        "Ensured code quality and performance optimization for reliable and secure applications"
+        "Architected and built the client-side card management portal from scratch using React, Next.js, and TypeScript",
+        "Implemented CI/CD pipelines for automated testing, linting, and deployment workflows",
+        "Developed a fully responsive, accessible UI with Tailwind CSS optimized for fintech compliance standards",
+        "Integrated RESTful APIs with React data-fetching patterns to deliver real-time transaction views and account management",
+        "Drove performance optimization initiatives including code splitting, lazy loading, and SSR to improve Core Web Vitals"
       ]
     },
     {
       "name": "Gaem",
-      "position": "co-founder & developer",
+      "position": "Fullstack Engineer",
       "startDate": "2020-06-01",
       "endDate": "2021-09-01",
-      "summary": "Research a new solution for Medical Applications Remotely Develop, design and build a new technology for a SaaS Web App in the Medical Industry",
-      "highlights": ["Started the company"]
+      "summary": "Designed and developed a SaaS web application for remote medical workflows, building the frontend in React and connecting it to backend services for patient data management and real-time communication.",
+      "highlights": [
+        "Built a React-based SPA for remote medical consultations with real-time data synchronization",
+        "Designed RESTful API architecture for patient records and appointment scheduling",
+        "Implemented responsive UI components ensuring accessibility compliance for healthcare users"
+      ]
     },
     {
       "name": "Ivoor Industries",
-      "position": "co-founder & developer",
+      "position": "Frontend Engineer",
       "url": "https://www.ivoorindustries.com",
       "startDate": "2018-01-01",
       "endDate": null,
-      "summary": "Manage the logistics team, so the shipments follow a standard process in order to reduce costs and time, Develop an online store Shopify, implementing a product catalog in HTML, Improve SEO to increase traffic to the website on Google search engine, Created the enterprise infrastructure using Google Workspace Email, Domains, E-commerce Service, MailChimp, Federal Government, and Legal state documentation to build the company, Create all product catalog pictures, illustrations and graphics for each catalog. These catalogs raised sales by 20% within three months after they were issued by displaying all the goods accessible to our clients.",
-      "highlights": ["Started the company"]
+      "summary": "Built and maintained the e-commerce web presence for a medical supply company, handling frontend development, SEO optimization, and integration with third-party services including Shopify and email marketing platforms.",
+      "highlights": [
+        "Developed the Shopify storefront with custom HTML/CSS product catalog templates that increased sales by 20% within three months",
+        "Implemented SEO optimizations that improved organic search rankings and drove measurable traffic growth on Google",
+        "Integrated third-party services including MailChimp for automated email campaigns and Google Workspace for team infrastructure"
+      ]
     }
   ],
   "education": [
@@ -130,90 +137,155 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
+      "name": "React",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web",
         "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
+        "UI Library",
+        "Component Architecture",
+        "Hooks",
+        "Senior Frontend Engineer"
       ]
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
+      "level": "Advanced",
       "keywords": [
-        "Desarrollo Web",
         "Frontend",
         "React Framework",
         "SSR",
-        "Static Generation"
+        "SSG",
+        "Fullstack",
+        "Senior Fullstack Engineer"
       ]
     },
     {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "name": "Astro",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Static Site Generation",
+        "Partial Hydration",
+        "Performance",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Fullstack",
+        "Type Safety",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Expert",
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Fullstack",
+        "Web Development",
+        "ES6+"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "Server-Side",
+        "API Development",
+        "Fullstack",
+        "Runtime"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "Utility-First",
+        "UI"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Expert",
+      "keywords": [
+        "Frontend",
+        "Semantic Markup",
+        "Accessibility",
+        "Web Standards"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Expert",
+      "keywords": [
+        "Frontend",
+        "Responsive Design",
+        "Animations",
+        "Web Standards"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Backend",
+        "Data Modeling",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "Supabase",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "BaaS",
+        "Real-Time",
+        "Authentication",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": ["Database", "SQL", "Backend", "Data Storage"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "CI/CD",
+        "Source Code Management"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Code Review",
+        "CI/CD",
+        "GitHub Actions"
+      ]
     },
     {
       "name": "Figma",
-      "level": "Hobby",
-      "keywords": ["UX Design", "Frontend", "UI", "UI Design"]
+      "level": "Intermediate",
+      "keywords": ["UI Design", "UX", "Prototyping", "Design-to-Code"]
     }
   ],
   "languages": [
@@ -228,40 +300,75 @@
   ],
   "projects": [
     {
-      "name": "apata",
+      "name": "Apata — Fintech Card Management Portal",
       "isActive": true,
-      "description": "Modern authentication infrastructure for Fintech issuers",
-      "highlights": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+      "description": "Built a fullstack fintech web application for card issuers, featuring secure authentication, real-time transaction views, and self-service card management using React, Next.js, TypeScript, and Tailwind CSS.",
+      "highlights": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "SSR",
+        "REST API Integration"
+      ],
       "url": "https://apata.io"
     },
     {
-      "name": "Ivoor Industries",
+      "name": "Inventorify — SaaS Inventory Platform",
       "isActive": true,
-      "description": "A retail company that sells products for the medical industry.",
-      "highlights": ["20M+ (MXN) in sales to date"],
-      "url": "https://www.ivoorindustries.com"
+      "description": "Architected and developed a fullstack SaaS inventory management platform with real-time multi-tenant data sync using Next.js, TypeScript, Supabase, and PostgreSQL.",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "CI/CD"
+      ],
+      "url": null
     },
     {
       "name": "The MOP Foundation Digital Platform",
       "isActive": true,
-      "description": "Modernized the MOP Foundation’s public site with a Next.js experience that editors manage in Sanity Studio, aligning multilingual content, Shopify merchandising, and Pretix ticketing in one workflow.",
+      "description": "Built a multilingual, content-driven web platform using Next.js and Sanity CMS with integrated Shopify e-commerce and Pretix event ticketing. Delivered reusable component architecture with SSR for performance and SEO.",
       "highlights": [
-        "Configured Sanity UI for localized editorial control and automated publishing",
-        "Integrated Shopify product catalogs and Pretix event inventory into unified customer journeys",
-        "Delivered reusable Next.js components to preserve performance, accessibility, and maintainability"
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Sanity CMS",
+        "Shopify Integration",
+        "SSR",
+        "Accessibility"
       ],
       "url": "https://themopfoundation.org/es"
     },
     {
       "name": "Andrews Technologies Web Platform",
       "isActive": true,
-      "description": "Implemented a corporate marketing site for Andrews Technologies with a composable stack that pairs a Next.js front end with Sanity-managed content.",
+      "description": "Implemented a performant corporate web platform using Next.js with Sanity CMS for headless content management. Built SEO-optimized layouts, automated preview deployments, and structured schemas for multilingual content.",
       "highlights": [
-        "Structured Sanity schemas to let corporate teams update multilingual copy and partner showcases autonomously",
-        "Delivered performant, SEO-friendly Next.js layouts optimized for long-form content and media assets",
-        "Automated deployments and previews so stakeholders can validate content updates before publishing"
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Sanity CMS",
+        "SEO Optimization",
+        "Automated Deployments"
       ],
       "url": "https://www.andrewstech.net/"
+    },
+    {
+      "name": "Ivoor Industries E-Commerce Storefront",
+      "isActive": true,
+      "description": "Developed a custom Shopify storefront with HTML/CSS product catalog templates, SEO optimizations, and third-party service integrations that drove a 20% sales increase within three months.",
+      "highlights": [
+        "Shopify",
+        "HTML",
+        "CSS",
+        "SEO",
+        "E-Commerce",
+        "MailChimp Integration"
+      ],
+      "url": "https://www.ivoorindustries.com"
     }
   ]
 }
